@@ -1,0 +1,17 @@
+body{
+	background-color: RVB (100,200,30);
+	font-size: 1,5em;
+}
+table{
+	border: solide;
+	box-shadow: 5px 5px 2px gris;
+	text-align: centre;
+	margin: automatique;
+	width: 100%;
+}
+td {
+	padding-left: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border: solid;
+}
