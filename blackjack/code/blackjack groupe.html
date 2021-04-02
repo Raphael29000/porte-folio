@@ -1,0 +1,55 @@
+<DOCTYPEHtml>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="blackjack.css">
+	<meta charset="UTF-8">
+	</head>
+	<body id='page'>  <!-- background-image: url('../images/fond.jpg'); background-repeat: no-repeat; background-position: center; -->
+		
+		<br><h1 class='titre'>BLACKJACK</h1>
+		<h3 id="argent"></h3>
+		<div id="fond2">									<!-- côté Banque	-->
+			<h2>Banque</h2>
+			
+			<table align='center'>
+				<tr id='bank_card'>
+					<td><img src='../images/verso.jpg'></td>
+				</tr>
+			</table>
+			<div id="score_banque"></div>
+			<br>
+			<div id="hr">
+			<hr>
+			</div>
+			<br>
+			<div id='start_game'><input type="button" id='commencer' value="Commencer la partie" onclick="start()"></div>
+			<div align='right' id='sabot'> </div>
+			
+												<!-- côté Joueur	-->
+			<h2>Joueur</h2>	
+			
+			<table align='center'>
+				<tr id="carte_Joueur">
+					<td><img src='../images/verso.jpg'></td>
+				</tr>
+			</table>
+			
+												<!-- input nouvelle carte ou rester	-->
+			<div id='score_joueur'></div><br>									
+				<table  align='center'>
+					<tr>
+						<form name="carte_ajout">
+							<td id='servir'></td>					
+							<td id='stay'></td>	
+							<td id='miser'></td>
+						</form>				
+					</tr>
+				</table>
+			
+			
+		</div>
+		<script type="text/javascript" language="JavaScript" src="blackjack.js">
+		</script>
+	</body>
+</html>
